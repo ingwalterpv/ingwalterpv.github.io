@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"content="IE=edge">
+	<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+	
+	<title>PROYECTO FINAL-CV</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+	<header id="cabecera">
+		<h1>Curriculum Vitae</h1>
+		<h2>Jhon</h2>
+		<img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Imagen de frente"/>
+	   
+        <nav>
+            <ul>
+                <li> <a href="#informacion">Información Personal</a></li>
+                <li> <a href="#experiencia">Experiencia</a></li>
+                <li> <a href="#estudios">Estudios Cursados</a></li>
+            </ul> 
+        </nav>
+        
+    
+    </header>
+
+    
+	<main>
+		<section id="informacion"> 	
+			<h1 class="titulos">INFORMACION PERSONAL</h1> 
+				<div class= "contenido">
+				 <h2>Jhon</h2>
+				 <h2>Físico Nuclear</h2>
+				 <h2>36 años</h2>
+                 <h2>Soltero</h2>
+                 <h2>Av. Principal y calle pública s/n</h2>
+                 <h2>e-mail:jhon@gmail.com</h2>
+				</div>
+		</section>
+        
+		<section id="experiencia"> 
+			<h1 class="titulos">EXPERIENCIA</h1> 
+				<div class="contenido">
+				 <h2>Profesor titular Física de Particulas</h2>
+				 	<a href="https://ib.edu.ar"> Link a la página principal.</a>
+				<h2>Inspector de Seguridad en Central Nuclear NPP</h2>
+				 	<a href="https://www.argentina.gob.ar/arn"> Link a la página principal.</a>
+                <h2>Jefe de seccion Acelerador de Partículas</h2>
+					<a href="https://home.cern"> Link a la página principal.</a>	
+				</div>
+		</section>
+        		
+		<section id="estudios"> 
+			<h1 class="titulos">ESTUDIOS CURSADOS</h1>
+                 <div class="contenido">
+				 <ul>
+                    <li>Ingeniería Nuclear</li>
+				    <li>Física Cuántica</li>
+				    <li>Matemáticas Avanzadas y Cálculo Diferencial</li>
+                    <li>Gestión de Proyectos</li>
+                    <li>Manejo de Software de Ingeniería</li>
+                 </ul>
+					
+			    </div>
+        </section>    
+	    
+        <br>
+        <br>
+        <section id="contacto"> 
+            <h1 class="titulos">CONTACTO</h1><br>
+            <div class="contenido">
+                <h2>Si deseas que me comunique contigo, via WhatsApp, ingresa tu número de teléfono.</h2>
+                <script src="accion.js"></script>
+		        <form>
+                 <label>Nombre</label><br>
+                 <input type="text" id="nombre" placeholder="Escriba su nombre" size="40"><br><br>
+                 <label>N° de teléfono celular</label><br>
+                 <input type="text" id="celular" placeholder="Escriba su número de teléfono celular" size="40"><br><br>
+                 <button type="button" onclick="funcioncapturar()">Enviar</button>
+                </form>
+        
+            </div>
+    </main>
+	
+	<footer>
+       <script src="accion.js"></script>
+       <p id="demo">Algunos datos curiosos de mi....</p>
+
+       <button type="button" onclick="mifuncion()">Click Aqui</button>
+
+    
+	</footer>
+</body>
+</html>
